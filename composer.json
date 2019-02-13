@@ -1,24 +1,29 @@
 {
-    "name": "xiaolin/ip",
-    "description": "ip city",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "xiaolin",
-            "email": "462441355@qq.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Lin\\Ip\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=7.0"
-    },
-    "require-dev": {
-        "symfony/var-dumper": "^4.1",
-        "phpunit/phpunit": ">=5.6"
+  "name": "xiaolin/ip",
+  "description": "ip",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "小林",
+      "email": "462441355@qq.com"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lin\\Ip\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.1",
+    "phpunit/phpunit": ">=5.6"
+  }
 }

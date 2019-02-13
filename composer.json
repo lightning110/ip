@@ -1,0 +1,17 @@
+{
+    "name": "xiaolin/ip",
+    "description": "ip city",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaolin",
+            "email": "462441355@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lin\\Ip\\": "src/"
+        }
+    }
+}
